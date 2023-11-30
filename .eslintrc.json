@@ -8,7 +8,9 @@
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
+    "ignorePatterns": ["/*.js"],
     "rules": {
+        "@typescript-eslint/space-before-function-paren": "off",
         "indent": ["error", 2],
         "eol-last": "off"
     }

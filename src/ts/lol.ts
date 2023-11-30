@@ -1,3 +1,5 @@
-export default function Lol() {
-    return 'lolol'
+function lol(): void {
+  console.log('')
 }
+
+lol()
